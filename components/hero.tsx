@@ -5,7 +5,7 @@ import starsBg from '@/app/assets/stars.png'
 
 const Hero = () => {
   return (
-    <section className='h-[492px] md:h-[800px] flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]' style={{
+    <section className='h-[492px] md:h-[800px]  flex items-center overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]' style={{
       backgroundImage : `url(${starsBg.src})`
     }}>
 
