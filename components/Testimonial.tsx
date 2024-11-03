@@ -48,7 +48,7 @@ const Testimonial = () => {
 
         <div className='overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
 
-            <div className='flex gap-5 -translate-x-1/2 '>
+            <div className='flex gap-5  '>
 
             {testimonials.map((testimonial)=>(
 
