@@ -35,7 +35,7 @@ const Header = () => {
                 <div className='absolute inset-0 backdrop-blur -z-10'></div>
                 <div>
                     <div className='border h-10 w-10 rounded-lg inline-flex justify-center items-center border-white/15'>
-                    <LogoIcon className="h-8 w-8" />
+                    <LogoIcon className="h-8 w-8 transition ease-in hover:-scale-50 " />
                     </div>
                 </div>
                 <div className='hidden md:block'>
